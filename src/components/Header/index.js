@@ -33,10 +33,8 @@ const useStyles = makeStyles({
 
 
 const Header = (props) => {
-    const classes = useStyles(props);
-    return (
-        <header>
-            <Grid 
+    const classes = useStyles();
+    return ( <Grid 
             container
             direction="row"
             justifyContent="space-between"
@@ -68,7 +66,6 @@ const Header = (props) => {
                     </Grid>
                 </Grid>
             </Grid>
-        </header>
     )
 }
 export default Header;
