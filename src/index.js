@@ -5,6 +5,16 @@ import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
+//fonts
+import './assets/Fonts/Nunito-Black.ttf';
+import './assets/Fonts/Nunito-Bold.ttf';
+import './assets/Fonts/Nunito-ExtraLight.ttf';
+import './assets/Fonts/Nunito-Light.ttf';
+import './assets/Fonts/Nunito-Regular.ttf';
+import './assets/Fonts/Nunito-SemiBold.ttf';
+import './assets/Fonts/Gotham Medium.otf';
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
